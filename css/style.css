@@ -1,0 +1,211 @@
+.logo {
+
+    width: 140px;
+    height: 45px;
+    padding: 20px;
+}
+
+header {
+
+    background-color: black;
+    width: 100%;
+}
+
+.seccion_one {
+    margin: 0;
+    background-color: rgb(46, 89, 197);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+.title {
+    padding-top: 125px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.intro {
+    padding-bottom: 20px;
+    font-weight: 700;
+
+}
+
+.buttom {
+    background-color: rgb(51, 194, 11);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.terminos {
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+.title_second {
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+
+    font-weight: 700;
+
+}
+
+.lista_ {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+.foto {
+
+    width: 100px;
+}
+
+
+.lista {
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.lista h3 {
+
+    font-weight: 700;
+
+}
+
+.footer {
+
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+@media all and (min-width:768px) {
+
+
+    .menu {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 700;
+        display: flex;
+        flex-direction: row-reverse;
+
+
+    }
+
+    .menu li {
+
+        padding: 0 15px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 14px;
+    }
+
+    .title {
+
+
+        font-size: 55px;
+        margin-bottom: 50px;
+
+    }
+
+    .intro {
+
+        margin-bottom: 50px;
+    }
+
+    .seccion_one {
+        height: 580px;
+        background-image: url("/img/dancer.png");
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+    }
+
+    .buttom {
+
+        width: 20%;
+        margin-bottom: 50px;
+    }
+
+
+    .title_second {
+
+
+        margin: 40px 0;
+    }
+
+    .lista_global {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+
+}
+
+@media all and (min-width:1200px) {
+
+    .title {
+        padding-top: 75px;
+        font-size: 90px;
+    }
+
+    .intro {
+        font-size: 29px;
+
+    }
+
+    .title_second {
+
+        font-size: 45px;
+    }
+
+
+    .lista_global {
+
+        margin: 0;
+        height: 300px;
+    }
+
+    .lista {
+        flex-basis: 25%;
+        flex-direction: column;
+        display: block;
+        text-align: center;
+
+    }
+
+    .info {
+
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    .footer {
+
+        justify-content: space-between;
+    }
+
+}
